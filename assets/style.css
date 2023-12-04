@@ -1,7 +1,47 @@
 body {
-    text-align: center;
-  }
-  
-  span {
-    display: inline-block;
-  }
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+#pic {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: stretch;
+}
+
+#pic img {
+  flex: 100%;
+}
+
+#icons {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 5px;
+}
+
+#icons div {
+  display: flex;
+  width: 30%;
+  align-items: center;
+}
+
+#icons div span {
+  flex: 10%;
+  justify-content: space-around;
+}
+
+#mini-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#mini-layout span {
+  flex: 20%;
+  padding: 10px;
+}
+
+#mini-layout img {
+  border: 2px solid black;
+}
